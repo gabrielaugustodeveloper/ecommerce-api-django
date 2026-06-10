@@ -1,0 +1,18 @@
+# Ambientes Virtuais
+venv/
+env/
+
+# Banco de Dados Local
+db.sqlite3
+
+# Arquivos de Cache do Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Arquivos de Sistema Operacional e Docker
+.DS_Store
+.dockerignore
+
+# Variáveis de Ambiente (Segurança)
+.env
