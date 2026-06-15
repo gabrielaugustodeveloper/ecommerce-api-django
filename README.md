@@ -40,8 +40,8 @@ Siga o passo a passo abaixo para rodar a aplicação no seu ambiente local.
 
 **Passo 1:** Clone o repositório e acesse a pasta do projeto:
 ```bash
-git clone [https://github.com/meu-usuario/meu-repositorio.git](https://github.com/meu-usuario/seu-repositorio.git)
-cd meu-repositorio
+git clone https://github.com/gabrielaugustodeveloper/ecommerce-api-django.git
+cd ecommerce-api-django
 ```
 
 **Passo 2:** Crie e ative o ambiente virtual:
