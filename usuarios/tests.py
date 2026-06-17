@@ -9,7 +9,7 @@ class AutenticacaoTests(APITestCase):
         O setUp roda antes de CADA teste. 
         Usei para preparar os dados e as URLs simuladas.
         """
-        # Substitua '/auth/register/' pela URL exata de cadastro da sua API
+      
         self.url_registro = 'http://127.0.0.1:8000/auth/register/' 
         
         self.dados_usuario = {

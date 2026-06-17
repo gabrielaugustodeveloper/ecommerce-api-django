@@ -2,7 +2,7 @@ from django.contrib.auth.models import AbstractUser
 from django.db import models
 
 class Usuario(AbstractUser):
-    # Garantindo que o e-mail seja único no banco de dados
+    # Garante que o e-mail seja único no banco de dados
     email = models.EmailField(unique=True)
 
     # Campo adicionado para diferenciar os papéis de Cliente e Lojista
